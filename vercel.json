@@ -1,9 +1,8 @@
 {
-    "rewrites": [
-      {
-        "source": "/proxy",
-        "destination": "/api/proxy"
-      }
-    ]
-  }
-  
+  "rewrites": [
+    {
+      "source": "/proxy",
+      "destination": "/api/proxy.mjs"
+    }
+  ]
+}
